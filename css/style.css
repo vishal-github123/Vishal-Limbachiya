@@ -162,7 +162,7 @@ h6, .h6 { font-size: 13px; line-height: 1.2; font-weight: 500; clear: both; }
   .header a.menulinks span { width: 35px; height: 2px; background: #fff; display: inline-block; transition: 0.4s ease-in-out; }
   .header a.menulinks { display: flex; flex-direction: column; gap: 6px; position: absolute; right: 15px; }
   .header ul li a { padding: 8px 15px; color: #fff; }
-  .header ul li a.active { color: #000; }
+  .header ul li a.active { color: #fff; }
   .mobile-open .header a.menulinks span:nth-child(2) { display: none; }
   .mobile-open .header a.menulinks span:nth-child(1) { transform: rotate(134deg); top: 8px; position: relative; }
   .mobile-open .header a.menulinks span:nth-child(3) { transform: rotate(45deg); position: relative; top: 0; }
