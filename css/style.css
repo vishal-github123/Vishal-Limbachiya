@@ -34,7 +34,6 @@ h6, .h6 { font-size: 13px; line-height: 1.2; font-weight: 500; clear: both; }
 .header ul li { margin: 0 15px; }
 .header ul li a { text-transform: capitalize; display: block; }
 .header ul li a.active { color: var(--secondary_color); }
-.header ul li a:hover { color: var(--secondary_color); }
 .header .menu_icon { color: #fff; font-size: 18px; cursor: pointer; display: none; }
 
 /*--- HomePage ---*/
@@ -119,6 +118,7 @@ h6, .h6 { font-size: 13px; line-height: 1.2; font-weight: 500; clear: both; }
   .header-area.sticky .header ul li a { color: #000; }
   .header-area.sticky .header ul li a.active { color: var(--secondary_color); }
   .header a.menulinks { display: none; }
+  .header ul li a:hover { color: var(--secondary_color); }
 }
 
 @media only screen and (min-width:1000px) and (max-width:1200px) {
