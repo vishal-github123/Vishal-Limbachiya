@@ -157,6 +157,7 @@ h6, .h6 { font-size: 13px; line-height: 1.2; font-weight: 500; clear: both; }
 
   .btn-group { margin: 30px 0; }
 
+  .header-area { padding: 15px 0; }
   .header .navbar { display: none; position: absolute; top: 100%; width: 100%; left: 0; background: var(--secondary_color); padding: 12px 0; z-index: 1; }
   .header .navbar li { margin: 0; }
   .header a.menulinks span { width: 35px; height: 2px; background: #fff; display: inline-block; transition: 0.4s ease-in-out; }
