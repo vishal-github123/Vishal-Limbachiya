@@ -70,11 +70,11 @@ $(document).ready(function() {
   $('.navbar li:has(ul)').addClass('parent');
 
   // Toggle navbar visibility when .menulinks (hamburger) is clicked
-  $('.menulinks').click(function () {
-      $('.navbar').slideToggle(250); // Show/hide navbar
-      $('body').toggleClass('mobile-open'); // Optional: add body class for styling
-      return false;
-  });
+    $('.menulinks').click(function () {
+    $('.navbar').slideToggle(250);
+    $('body').toggleClass('mobile-open');
+    return false;
+    });
  
 
 });
