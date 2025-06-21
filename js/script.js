@@ -70,11 +70,18 @@ $(document).ready(function() {
   $('.navbar li:has(ul)').addClass('parent');
 
   // Toggle navbar visibility when .menulinks (hamburger) is clicked
-    $('.menulinks').click(function () {
-    $('.navbar').slideToggle(250);
-    $('body').toggleClass('mobile-open');
-    return false;
-    });
+  $('.menulinks').click(function () {
+        $('.navbar').slideToggle(250);
+        $('body').toggleClass('mobile-open');
+        return false;
+  });
+
+  $('.header ul li a').click(function () {
+        if ($('body').hasClass('mobile-open')) {
+            $('.navbar').slideUp(250);
+            $('body').removeClass('mobile-open');
+        }
+  });
  
 
 });
